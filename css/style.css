@@ -345,7 +345,7 @@ nav{
     margin: 4.5rem auto;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap:wrap;
 
 }
@@ -359,6 +359,7 @@ nav{
     max-width: 25rem;
     box-shadow: .4rem .4rem .3rem .4rem rgb(25, 23, 23);
     transition: 0.5s;
+    margin-right:3rem;
 }
 .tech .card:hover{
     max-width: 25rem;
