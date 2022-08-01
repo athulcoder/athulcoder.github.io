@@ -341,7 +341,7 @@ nav{
 /* section learn */
 
 .tech{
-    max-width: 90rem;
+    width: 98%;
     margin: 4.5rem auto;
     text-align: center;
     display: flex;
