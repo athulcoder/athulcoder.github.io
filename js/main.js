@@ -52,7 +52,6 @@ function list() {
 
 }
 function closer() {
-    listbox.classList.add('unlist')
     listbox.classList.remove('list')
 }
 
