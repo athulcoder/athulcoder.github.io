@@ -1,0 +1,146 @@
+/* Navigation Bar  */
+
+/* Main Nav Box */
+nav{
+    width: 100vw;
+    height: 100%;
+    background-color:var(--s-color);
+    font-family: 'Comfortaa', cursive;
+}
+.sub-nav{
+    width: 100vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub-nav .logobox{
+    width: 20rem;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+ .logo{
+    width: 5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.sub-nav .logobox h1{
+    font-size: 1.5rem;
+    color:var(--text-main-color);
+}
+.sub-nav .logobox span{
+    color: var(--p-color);
+}
+
+/* Menu box */
+
+.menubox {
+
+    margin-right: 2vw;
+    width: 35vw;
+}
+
+.menubox ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 3vw;
+
+}
+.main-list-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    align-items: center;
+
+}
+.menubox ul li {
+    list-style: none;
+    margin: 0 0 0 22px;
+    position: relative;
+
+}
+
+.menubox ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+
+}
+
+.menubox ul li::after {
+    content: '';
+    height: .3rem;
+    width: 0;
+    background-color:rgb(255, 60, 0);
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    transition: 0.5s;
+
+}
+/* Login SignUp button */
+.btn3{
+    width: 7rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 1rem;
+    color: white;
+    background-color: var(--p-color);
+    padding: .4rem 1rem;
+    transition: 0.2s;
+    font-family: 'Roboto', sans-serif;
+}
+.btn3:hover{
+    background-color: transparent;
+
+}
+.menubox ul li:hover::after {
+    width: 100%;
+
+}
+/* Down side navbar */
+.down-nav{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    background-color:var(--s-color);
+    box-shadow: .3rem .3rem .3rem .3rem rgb(130, 127, 127);
+    font-family: 'Roboto', sans-serif;
+}
+.down-nav i{
+    font-size: 2rem;
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 3.2rem;
+    cursor: pointer;
+}
+.down-nav input{
+    width: 20rem;
+    padding: .3rem .6rem;
+    outline: none;
+    border-radius: .5rem;
+}
