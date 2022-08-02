@@ -98,7 +98,7 @@ nav{
 }
 .sub-nav .logobox h1{
     font-size: 1.5rem;
-    color:var(--text-main-color);
+    color:#fff;
 }
 .sub-nav .logobox span{
     color: var(--p-color);
