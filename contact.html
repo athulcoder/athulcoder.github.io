@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Contact | iCode athulcoder</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+    body {
+        overflow-x: hidden;
+        transition: 0;
+    }
+
+    .contact {
+        max-width: 130rem;
+        overflow: hidden;
+        margin: 10rem auto;
+        margin-bottom: 1rem;
+        height: 40rem;
+        box-shadow: 1px 1px 15px 0px #646262;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem 5rem;
+        background-color: rgb(245, 241, 241);
+    }
+
+    .contact img {
+        min-width: 7rem;
+        max-width: 12rem;
+        background-color: #fff;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin: 2rem 0;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+        font-family: 'Mukta', sans-serif;
+        text-align: center;
+    }
+
+    .contact a {
+        color: black;
+        margin: 2rem 1rem;
+    }
+
+    .contact i {
+        font-size: 3rem;
+        transition: 0s;
+    }
+
+    .contact i:hover {
+        color: orangered;
+    }
+
+    .reach {
+        min-width: 15rem;
+        height: 40rem;
+        padding: 3rem 4rem;
+        margin: 3rem auto;
+        box-shadow: 1px 1px 15px 0px #646262;
+        max-width: 70rem;
+        overflow: hidden;
+        background-color: rgb(209, 214, 217);
+        margin-top: 0;
+
+    }
+
+    form {
+        padding: .2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    form .row {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items:flex-start;
+        min-width: 38rem;
+    }
+
+    form input,
+    form textarea {
+        width: 40rem;
+        border-radius: 1rem;
+        outline: none;
+        margin: 4px 0rem;
+        height: 3rem;
+        background-color: rgb(255, 255, 255);
+        padding: .3rem 1rem;
+        color: rgb(0, 0, 0);
+    }
+
+    form textarea {
+        height: 7rem;
+    }
+    .btns{
+        width: 34rem;
+        display: flex;
+        justify-content: cente15;
+    }
+    #submit{
+        background-color: green;
+        color: #fff;
+        transition: 0s;
+        cursor: pointer;
+        border-radius: 2rem;
+        width: 15rem;
+    }
+    #submit:hover{
+        background-color: rgb(7, 159, 7);
+    }
+    #reset{
+        background-color: rgb(255, 0, 0);
+        color: #fff;
+        cursor: pointer;
+        transition: 0s;
+        border-radius: 2rem;
+        width: 15rem;
+    }
+    #reset:hover{
+        background-color: rgb(255, 44, 44);
+    }
+
+
+    @media only screen and (max-width:450px) {
+        .contact {
+            padding-top: 5rem;
+            justify-content: space-between;
+        }
+
+        .contact h1 {
+            font-size: 2.5rem
+        }
+
+        .contact img {
+            width: 6rem;
+            margin: 1rem 0;
+        }
+
+        .contact a {
+            margin-top: 6rem;
+        }
+    }
+
+    @media only screen and (max-width:350px) {
+        .contact h1 {
+            font-size: 2rem;
+        }
+    }
+
+    @media only screen and (max-width:290px) {
+        .contact h1 {
+            font-size: 1.8rem;
+        }
+
+        .contact i {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<body>
+    <div class="load"></div>
+    <header>
+        <nav>
+            <section class="sub-nav">
+                <div class="logobox">
+                    <img src="./img/mylogo.png" alt="logo" class="logo">
+                    <h1><span>i</span>Code <span>athulcoder</span></h1>
+                </div>
+
+                <div class="menubox">
+                    <div class="main-list-box">
+                        <ul>
+                            <li><a href="/">home</a></li>
+                            <li><a href="">contact</a></li>
+                            <li><a href="">gallery</a></li>
+                            <li><a href="">about</a></li>
+                        </ul>
+                        <button class="btn3" onclick="open_url(1)">Login</button>
+                        <button class="btn3" onclick="open_url(2)">Signup</button>
+                    </div>
+
+                </div>
+            </section>
+            <section class="down-nav">
+                <i class="fa-solid fa-bars" id="list-btn" onclick="list()"></i>
+                <div class="searchbar">
+                    <input type="search" placeholder="Search" name="search" id="search">
+                    <i class="fa-solid fa-magnifying-glass" id="searchbtn"></i>
+                </div>
+            </section>
+        </nav>
+    </header>
+    <div id="list-box" class="list_box">
+        <div class="profile">
+            <div class="close">
+
+                <label class="switch">
+                    <input type="checkbox" id="toggle_btn" checked><span class="s-mover"></span>
+
+                </label>
+
+                <i class="fa-solid fa-close" id="closebtn" onclick="closer()"></i>
+            </div>
+            <img src="./img/mylogo.png" alt="" class="logo2">
+            <h3>i<span>Code <br></span>athulcoder</h3>
+        </div>
+        <ul id="item">
+            <li><i class="fa-solid fa-house"></i><a href="">Home</a></li>
+            <li><i class="fa-solid fa-user"></i><a href="">About</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="">Contact</a></li>
+            <li><i class="fa-brands fa-envira"></i><a href="">Gallery</a></li>
+            <li><i class="fa-solid fa-arrows"></i><a href="">Social</a></li>
+            <li><i class="fa-solid fa-book"></i><a href="">Learn</a></li>
+            <li><i class="fa-solid fa-computer"></i><a href="">Tech</a></li>
+            <li><i class="fa-solid fa-inbox"></i><a href="./login.html">Login</a></li>
+            <li><i class="fa-solid fa-sign"></i><a href="./signup.html">Signup</a></li>
+            <li><i class="fa-brands fa-github"></i><a href="https://github.com/athulcoder" target="_blank">Github</a>
+            </li>
+            <li><i class="fa-brands fa-instagram"></i><a href="https://instagram.com/athul_._sabu"
+                    target="_blank">Instagram</a></li>
+            <li><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/athulcoder" target="_blank">Twitter</a>
+            </li>
+        </ul>
+    </div>
+    <section class="contact">
+        <h1>Feel Free to contact me</h1>
+        <img src="./img/mylogo.png" alt="logo">
+        <div class="m-icon">
+            <a href="https://www.faceboook.com/athul.sabu.79677" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instgaram.com/athul_._sabu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.github.com/athulcoder" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.twiiter/athulcoder" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+        </div>
+    </section>
+
+    <h1>Reach Me</h1>
+    <section class="reach">
+        <form action="/">
+            <div class="row">
+                <label for="name">Name </label>
+                <input type="text" name="name" id="name" required maxlength="90" minlength="2" autocomplete="off"
+                    placeholder="Name">
+            </div>
+            <div class="row">
+                <label for="phone">phone </label>
+                <input type="text" name="phone" id="name" required maxlength="10" minlength="3" autocomplete="off"
+                    placeholder="Phone">
+            </div>
+            <div class="row">
+                <label for="name">E-mail </label>
+                <input type="text" name="email" id="email" required maxlength="90" minlength="8" autocomplete="off"
+                    placeholder="E-mail">
+            </div>
+            <div class="row">
+                <label for="msg">Message</label>
+                <textarea name="msg" id="msg" cols="15" rows="10" maxlength="3000" required  autocomplete="off"></textarea>
+            </div>
+            <div class="btns">
+                <input type="submit" value="Submit" id="submit">
+                <input type="reset" value="Cancel" id="reset">
+            </div>
+
+        </form>
+    </section>
+    <footer>
+        <div class="last">
+            <img src="./img/mylogo.png" alt="">
+            <p>copyrigth &copy; athulcoder.github.io</p>
+        </div>
+        <div class="icons">
+            <a href="https://github.com/athulcoder" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/athul.sabu.79677" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/athul_._sabu" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/athulcoder" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+    </footer>
+</body>
+
+<script src="./js/navbar_function.js"></script>
+
+</html>

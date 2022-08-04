@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./img/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <title>New Account |iCode athulcoder</title>
+</head>
+<style>
+    html {
+        font-size: 62.5%;
+    }
+
+    .container {
+        max-width: 50rem;
+        height:60rem;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        font-family: 'Comfortaa', cursive;
+
+    }
+
+    .container img {
+        max-width: 10rem;
+        background-color: #fff;
+        border: 2px solid black;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 2.7rem;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 30rem;
+        padding: 2rem 2rem;
+        height: 50rem;
+        border: 2px solid black;
+        box-shadow: 0px 3px 10px 6px #a5a5a5;
+    }
+    form label{
+        display: flex;
+        align-self: flex-start;
+        width: 25%;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin: 1rem 0rem;
+    }
+    form input{
+        width: 70%;
+        height: 2.8rem;
+        padding: 0rem 2rem;
+        border-radius: 1rem;
+    }
+    form button{
+        width: 84%;
+        padding: .8rem 0;
+        margin: 2rem 0;
+        background-color: rgb(14, 125, 36);
+        color: #fff;
+        cursor: pointer;
+        border-radius: 1rem;
+    }
+    button:hover{
+        background-color: rgb(10, 136, 25);
+    }
+    #checkbox{
+        width: 1.5rem;
+    }
+    .checkbox{
+        width: 14rem;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+    }
+    @media only screen and (max-width:390px){
+        form{
+            min-width: 22rem;
+        }
+    }
+    @media only screen and (max-width:270px){
+        form{
+            min-width: 15rem;
+
+        }
+        h1{
+            font-size: 2rem;
+        }
+    }
+
+</style>
+
+<body>
+    <div class="container">
+        <img src="./img/mylogo.png" alt="logo">
+        <h1>New Account</h1>
+        <form action="#">
+            <label for="name">Name <i class="fa-solid fa-user"></i></label>
+            <input type="text" name="name"  id="name" required maxlength="120" autocomplete="off">
+            <label for="email">E-mail <i class="fa-solid fa-envelope" ></i></label>
+            <input type="text" name="email" id="email" required maxlength="60" autocomplete="off">
+            <label for="phone">Phone <i class="fa-solid fa-mobile-screen"></i></label>
+            <input type="text" name="phone" id="phone" required maxlength="10" autocomplete="off">
+            <label for="password">Password <i class="fa-solid fa-lock"></i></label>
+            <input type="password" name="password" id="password" required autocomplete="off" maxlength="16" minlength="8">
+            <label for="cnfrm-pass">Confirm <i class="fa-solid fa-lock"></i></label>
+            <input type="password" name="cnfrm-pass" id="cnfrm-pass" required autocomplete="off" maxlength="16" minlength="8">
+            <div class="checkbox"><input type="checkbox"  id="checkbox" onclick="show_password()">Show Password</div>
+            <button>Create</button>
+        </form>
+
+    
+    </div>
+</body>
+<script src="./js/login.js">
+</script>
+</html>
