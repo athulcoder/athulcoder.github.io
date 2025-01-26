@@ -3,29 +3,29 @@ import { skills } from "../routes/skills";
 const About = () => {
   return (
     <>
-      <section className=" w-full min-h-full px-10 flex justify-center items-center flex-col bg-background">
+      <section className=" w-full min-h-screen px-10 flex justify-start items-center flex-col bg-background">
         <h1 className="text-3xl lg:text-4xl my-10 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
           About Me
         </h1>
-        <div className="flex flex-col justify-center items-center p-5 bg-primary-color shadow-md shadow-gray-600 rounded-lg  ">
-          <h1 className="text-3xl lg:text-4xl  font-montserrat bg-gradient-to-br font-extrabold from-red-400 via-blue-400 to-pink-700 bg-clip-text text-transparent ">
+        <div className="flex flex-col justify-center items-center p-4 my-5 bg-primary-color shadow-inner shadow-slate-800 rounded-lg min-w-[200px] sm:w- ">
+          <h1 className="text-3xl lg:text-4xl  font-montserrat text-primary-text ">
             Hello, Im Athul Sabu
           </h1>
-          <p className="text-primary-text text-sm font-montserrat my-4 lg:text-md ">
+          <p className="text-secondary-text text-sm font-montserrat my-4 lg:text-md ">
             a developer with passion to build innovative techologies with the
             possible tools available.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4">
-          <div className="flex flex-col justify-center items-center p-5 bg-primary-color shadow-md shadow-gray-600 rounded-lg min-w-[200px] sm:w- ">
-            <h1 className="text-3xl lg:text-4xl my-10 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-0 sm:gap-10 ">
+          <div className="flex flex-col justify-center sm:col-span-1 items-center p-4 my-5 bg-primary-color shadow-inner shadow-slate-800 rounded-lg min-w-[200px] sm:w- ">
+            <h1 className="text-2xl  lg:text-4xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
               Skills
             </h1>
-            <ul>
+            <ul className="list-disc flex flex-col justify-start items-start">
               {skills.map((skill, index) => (
                 <li
                   key={index}
-                  className="gap-3 flex text-white justify-center"
+                  className="gap-3 flex text-primary-text justify-center items-center"
                 >
                   <span>{skill.name}</span>
                   {skill.Icon}
@@ -34,21 +34,26 @@ const About = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col justify-center items-center p-5 bg-primary-color shadow-md shadow-gray-600 rounded-lg min-w-[200px] sm:w- ">
-            <h1 className="text-3xl lg:text-4xl my-10 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
-              Skills
+          <div className="flex flex-col justify-center sm:col-span-2 items-center p-4 my-5 bg-primary-color shadow-inner shadow-slate-800 rounded-lg min-w-[200px] sm:w- ">
+            <h1 className="text-2xl  lg:text-4xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
+              Education
             </h1>
-            <ul>
-              {skills.map((skill, index) => (
-                <li
-                  key={index}
-                  className="gap-3 flex text-white justify-center items-center"
-                >
-                  <span>{skill.name}</span>
-                  {skill.Icon}
-                </li>
-              ))}
-            </ul>
+            <span className="text-xl self-start lg:text-3xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-light">
+              BTech
+            </span>
+            <h3 className="text-sm text-secondary-text">
+              Bachelor of Technology in Computer Science and Engineering (BTech
+              CSE) Muthoot Institute of Technology and Science 2024 – Present
+              Consistently demonstrating academic excellence.
+            </h3>
+            <span className="text-xl self-start lg:text-3xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-light">
+              Grade 12
+            </span>
+            <h3 className="text-sm text-secondary-text">
+              St Joseph HSS Pullurampara 2022 – 2024 Scored 99.08%, showcasing
+              strong analytical and problem-solving skills. Excelled in
+              Mathematics and Computer Science
+            </h3>
           </div>
         </div>
       </section>
