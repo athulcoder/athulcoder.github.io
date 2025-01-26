@@ -30,7 +30,7 @@ export const contactLinks = [
     id: 4,
     title: "Discort",
     Icon: <FaDiscord className="text-4xl mb-4" />,
-    href: "https://discord.com/athulcoder7330/",
+    href: "https://discord.com/users/athulcoder7330/",
   },
   {
     id: 5,
