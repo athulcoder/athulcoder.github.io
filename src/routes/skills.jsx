@@ -1,13 +1,17 @@
 import { DiJavascript } from "react-icons/di";
-import { FaPython, FaReact } from "react-icons/fa";
-import { FaFlutter, FaGitAlt } from "react-icons/fa6";
+import { FaPhp, FaPython, FaReact } from "react-icons/fa";
+import { FaFlutter } from "react-icons/fa6";
 
-import { SiCplusplus } from "react-icons/si";
+import { SiCplusplus, SiTailwindcss } from "react-icons/si";
 
 export const skills = [
   {
     name: "React js",
     Icon: <FaReact></FaReact>,
+  },
+  {
+    name: "Tailwind CSS",
+    Icon: <SiTailwindcss></SiTailwindcss>,
   },
   {
     name: "JavaScript",
@@ -27,7 +31,7 @@ export const skills = [
   },
 
   {
-    name: "Git",
-    Icon: <FaGitAlt></FaGitAlt>,
+    name: "PHP",
+    Icon: <FaPhp></FaPhp>,
   },
 ];

@@ -1,4 +1,5 @@
 import { skills } from "../routes/skills";
+import { tools } from "../routes/tools";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
             possible tools available.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-0 sm:gap-10 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 gap-0 sm:gap-10 ">
           <div className="flex flex-col justify-center sm:col-span-1 items-center p-4 my-5 bg-primary-color shadow-inner shadow-slate-800 rounded-lg min-w-[200px] sm:w- ">
             <h1 className="text-2xl  lg:text-4xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
               Skills
@@ -27,8 +28,25 @@ const About = () => {
                   key={index}
                   className="gap-3 flex text-primary-text justify-center items-center"
                 >
-                  <span>{skill.name}</span>
                   {skill.Icon}
+                  <span>{skill.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="flex flex-col justify-center sm:col-span-1 items-center p-4 my-5 bg-primary-color shadow-inner shadow-slate-800 rounded-lg min-w-[200px] sm:w- ">
+            <h1 className="text-2xl  lg:text-4xl my-4 font-montserrat bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-extrabold">
+              Tools
+            </h1>
+            <ul className="list-disc flex flex-col justify-start items-start">
+              {tools.map((tool, index) => (
+                <li
+                  key={index}
+                  className="gap-3 flex text-primary-text justify-center items-center"
+                >
+                  {tool.Icon}
+                  <span>{tool.name}</span>
                 </li>
               ))}
             </ul>

@@ -1,5 +1,6 @@
 import { BsBootstrap } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import { DiMysql } from "react-icons/di";
+import { FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiAndroidstudio, SiPycharm } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -20,9 +21,16 @@ export const tools = [
     name: "Bootstrap",
     Icon: <BsBootstrap></BsBootstrap>,
   },
-
+  {
+    name: "MySQL",
+    Icon: <DiMysql></DiMysql>,
+  },
   {
     name: "Github",
     Icon: <FaGithub></FaGithub>,
+  },
+  {
+    name: "Git",
+    Icon: <FaGitAlt></FaGitAlt>,
   },
 ];

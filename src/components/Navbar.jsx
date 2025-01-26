@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <header className=" w-full bg-primary-color h-[60px] items-center flex ">
       <nav className="flex gap-40 items-center px-10  w-full justify-between max-sm:px-4">
-        <div>
-          <img src={codeICON} width={40} height={40} alt="" className="" />
+        <div className="w-[40px] h-[40px]">
+          <img src={codeICON} className="w-[40px] h-[40px]" />
         </div>
 
         <div className="flex lg:hidden cursor-pointer gap-5">
