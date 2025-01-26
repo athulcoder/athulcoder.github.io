@@ -12,7 +12,7 @@ export const contactLinks = [
     id: 1,
     title: "Github",
     Icon: <FaGithub className="text-4xl mb-4" />,
-    href: "https:/github.com/athulcoder",
+    href: "https://github.com/athulcoder",
   },
   {
     id: 2,
