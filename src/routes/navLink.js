@@ -11,7 +11,7 @@ export const routes =[
 }
 ,
 {
-    title:"Showcase",
+    title:"Portfolio",
     href:"/works",
     Icon:AiOutlineFundProjectionScreen
  
