@@ -1,4 +1,8 @@
 # Portfolio Website
 
 <br>
-# Author : Athul
+<ul>
+<li>Author : athulcoder</li>
+<li>library : React JS</li>
+<li>Tools : Vite , Tailwind CSS, VSCode, git</li>
+</ul>
