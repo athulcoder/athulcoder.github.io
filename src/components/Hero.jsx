@@ -1,6 +1,6 @@
 import { HeroIMG } from "../assets/images";
 import Button from "./Button";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="flex flex-col   w-full  py-10 bg-background gap-12 min-h-screen lg:flex-row  lg:gap-8 lg:items-center lg:w-full lg:justify-center  px-5 ">
@@ -18,7 +18,15 @@ const Hero = () => {
           and knowledge
         </p>
 
-        <Button label="Contact me"></Button>
+        <div className="gap-4 flex">
+          <Link to="contact/">
+            <Button label="Reach Me"></Button>
+          </Link>
+
+          <Link to="contact/">
+            <Button label="Portfolio"></Button>
+          </Link>
+        </div>
       </div>
       <div className="mx-5 min-w-[200px] self-center lg:w-[450px] ">
         <img src={HeroIMG} alt=" hero image " className="w-full rounded-xl " />
