@@ -23,7 +23,7 @@ const Hero = () => {
             <Button label="Reach Me"></Button>
           </Link>
 
-          <Link to="contact/">
+          <Link to="works/">
             <Button label="Portfolio"></Button>
           </Link>
         </div>
