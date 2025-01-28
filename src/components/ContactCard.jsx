@@ -5,7 +5,7 @@ const ContactCard = ({ title, url, icon, key }) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="flex flex-col items-center bg-[#1E293B] text-primary-text p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl hover:bg-[#0746ad]"
+      className="flex flex-col items-center bg-primary-color text-primary-text p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-2xl hover:bg-[#0746ad]"
     >
       {icon}
       <span className="text-lg font-semibold">{title}</span>

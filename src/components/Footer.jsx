@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-[#1E293B] text-white px-2 py-4 w-full h-[100px]  ">
+    <footer className="bg-primary-color text-white px-2 py-4 w-full h-[100px]  ">
       <div className="flex justify-center items-center h-full">
         <div className="text-center">
           {/* Flex layout with wrap on small screens */}
@@ -45,7 +45,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-center">
-            <p className="text-sm opacity-75 ">
+            <p className="text-sm opacity-75 text-primary-text">
               &copy; 2025 Athul Sabu. All rights reserved.
             </p>
           </div>

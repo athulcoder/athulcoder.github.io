@@ -30,7 +30,7 @@ const Showcase = () => {
   ];
 
   return (
-    <section className="py-16 bg-gray-900 text-white">
+    <section className="py-16 bg-background text-white">
       <div className="container mx-auto text-center mb-12">
         <h1 className="font-montserrat text-3xl lg:text-5xl font-bold bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-3 py-3">
           My Projects
@@ -50,11 +50,13 @@ const Showcase = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full rounded-lg  p-4 min-h-[300px] object-cover transition-all hover:opacity-80"
+              className="w-full rounded-lg  p-4 min-h-[300px] object-cover transition-all "
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-              <p className="text-sm text-gray-400 mb-4">
+              <h3 className="text-xl font-semibold mb-3 text-primary-text">
+                {project.title}
+              </h3>
+              <p className="text-sm text-gray-400 mb-4 text-secondary-text">
                 {project.description}
               </p>
               <div className="flex justify-between items-center">

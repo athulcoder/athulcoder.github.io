@@ -7,3 +7,21 @@
     padding: 0;
     font-family:sans-serif;
 }
+
+:root{
+    --primary-color: #1E293B;
+    --background: #0F172A;
+    --primary-text:#E5E7EB;
+    --accent:#3B82F6;
+    --accent-hover:#0746ad;
+    --secondary-text:#9CA3AF;
+}
+
+.light{
+    --primary-color: #f2f2f2;
+    --background: #ffffff;
+    --primary-text:#0e0e24;
+    --accent:#3B82F6;
+    --accent-hover:#0746ad;
+    --secondary-text:#8d8d8d;
+}

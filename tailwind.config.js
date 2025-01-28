@@ -3,6 +3,7 @@
 
 
 export default {
+  darkMode:'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -11,12 +12,12 @@ export default {
     
     extend: {
       colors:{
-        "primary-color": "#1E293B",//"#000414",
-        "background":"#0F172A",
-        "primary-text":"#E5E7EB",
-        "accent":"#3B82F6",
-        "accent-hover":"#0746ad",
-        "secondary-text":"#9CA3AF",
+        "primary-color": 'var(--primary-color)',//"#000414",
+        "background":'var(--background)',
+        "primary-text":'var(--primary-text)',
+        "accent":'var(--accent)',
+        "accent-hover":'var(--accent-hover',
+        "secondary-text":'var(--secondary-text)',
     },
     
     fontFamily: {

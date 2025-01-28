@@ -3,7 +3,7 @@ import { contactLinks } from "../routes/contactLink";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#0F172A] p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-background p-6">
       {/* Header Section */}
       <div className="text-center mb-12">
         <h1 className="font-montserrat text-3xl lg:text-5xl font-bold bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">

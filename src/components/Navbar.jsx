@@ -1,5 +1,5 @@
 import { codeICON } from "../assets/icons";
-
+import "../index.css";
 import HamburgerMobile from "./HamburgerMobile";
 import DesktopNav from "./DesktopNav";
 import NavContactCard from "./NavContactCard";

@@ -5,7 +5,7 @@ const PageNotFound = () => {
       <h1 className="text-9xl font-extrabold text-blue-600 font-montserrat">
         404
       </h1>
-      <p className="text-2xl font-semibold mt-4 text-primary-text bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-montserrat">
+      <p className="text-2xl font-semibold mt-4  bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text font-montserrat">
         Oops! Page not found.
       </p>
       <p className="text-secondary-text mt-2  font-montserrat text-center">
