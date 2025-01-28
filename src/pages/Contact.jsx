@@ -9,7 +9,7 @@ const Contact = () => {
         <h1 className="font-montserrat text-3xl lg:text-5xl font-bold bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">
           Contact Me
         </h1>
-        <p className="text-lg text-[#9CA3AF]">
+        <p className="text-lg text-secondary-text">
           Im always open to collaboration or answering questions. Feel free to
           reach out!
         </p>

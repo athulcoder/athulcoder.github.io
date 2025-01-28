@@ -16,7 +16,7 @@ export default {
         "background":'var(--background)',
         "primary-text":'var(--primary-text)',
         "accent":'var(--accent)',
-        "accent-hover":'var(--accent-hover',
+        "accent-hover":'var(--accent-hover)',
         "secondary-text":'var(--secondary-text)',
     },
     
