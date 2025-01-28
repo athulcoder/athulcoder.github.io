@@ -65,7 +65,7 @@ const Showcase = () => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-dark flex items-center space-x-2"
+                  className="bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover flex items-center space-x-2"
                 >
                   <FaGithub />
                   <span>GitHub</span>
@@ -75,7 +75,7 @@ const Showcase = () => {
                     href={project.previewLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-dark flex items-center space-x-2"
+                    className="bg-accent text-white px-4 py-2 rounded-full hover:bg-accent-hover flex items-center space-x-2"
                   >
                     <FaExternalLinkAlt />
                     <span>Preview</span>
