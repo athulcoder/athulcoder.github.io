@@ -45,7 +45,7 @@ const HamburgerMobile = () => {
                       to={route.href}
                     >
                       <span className="flex gap-1 text-lg">{route.title}</span>
-                      <Icon className="text-xl text-white" />
+                      <Icon className="text-xl text-primary-text" />
                     </Link>
                   </li>
                 );
