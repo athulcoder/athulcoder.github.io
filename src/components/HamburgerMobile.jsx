@@ -11,14 +11,8 @@ const HamburgerMobile = () => {
 
   const [isOpen, setOpen] = useState(false);
   return (
-    <div ref={ref} className="lg:hidden ">
-      <Hamburger
-        toggled={isOpen}
-        size={24}
-        duration={0.3}
-        color="#fff"
-        toggle={setOpen}
-      />
+    <div ref={ref} className="lg:hidden text-primary-text">
+      <Hamburger toggled={isOpen} size={24} duration={0.3} toggle={setOpen} />
       <AnimatePresence>
         {isOpen && (
           <motion.div
