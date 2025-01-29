@@ -17,6 +17,16 @@
     --secondary-text:#9CA3AF;
 }
 
+
+.dark{
+    --primary-color: #1E293B;
+    --background: #0F172A;
+    --primary-text:#E5E7EB;
+    --accent:#710199;
+    --accent-hover:#4a135e;
+    --secondary-text:#9CA3AF;
+}
+
 .light{
     --primary-color: #f2f2f2;
     --background: #ffffff;

@@ -1,10 +1,13 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import ToggleButton from "../components/ToggleButton";
+
 const NavContactCard = ({ vision }) => {
   return (
     <>
       {vision ? (
         <div className="hidden lg:flex justify-center items-center gap-5 ">
+          <ToggleButton></ToggleButton>
           <li className="flex justify-center  p-2 rounded-full ">
             <a href="https://github.com/athulcoder/" target="_blank">
               <FaGithub className="text-secondary-text w-6 h-6" />
