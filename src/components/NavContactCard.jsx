@@ -23,7 +23,9 @@ const NavContactCard = ({ vision }) => {
           </li>
         </div>
       ) : (
-        <div className="flex lg:hidden justify-center items-center gap-5 ">
+        <div className="flex lg:hidden justify-center items-center gap-2 ">
+          <ToggleButton></ToggleButton>
+
           <li className="flex justify-center  p-2 rounded-full ">
             <a href="https://github.com/athulcoder/" target="_blank">
               <FaGithub className="text-secondary-text w-6 h-6" />
