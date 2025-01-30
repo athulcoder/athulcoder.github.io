@@ -1,4 +1,3 @@
-import { codeICON } from "../assets/icons";
 import HamburgerMobile from "./HamburgerMobile";
 import DesktopNav from "./DesktopNav";
 import { LuCodeXml } from "react-icons/lu";

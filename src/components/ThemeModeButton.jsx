@@ -1,5 +1,5 @@
 import { MdDarkMode } from "react-icons/md";
-import { MdOutlineLightMode } from "react-icons/md";
+import { MdLightMode } from "react-icons/md";
 import { useState, useEffect } from "react";
 import "../index.css";
 const ToggleButton = () => {
@@ -32,7 +32,7 @@ const ToggleButton = () => {
         className="bg-primary-color p-2 rounded-full"
         onClick={handleClick}
       >
-        <MdOutlineLightMode className="w-[24px] h-[24px] text-secondary-text"></MdOutlineLightMode>
+        <MdLightMode className="w-[24px] h-[24px] text-secondary-text"></MdLightMode>
       </button>
     </div>
   );

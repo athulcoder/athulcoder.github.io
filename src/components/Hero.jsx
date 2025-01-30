@@ -11,14 +11,14 @@ const Hero = () => {
         <h1 className="text-5xl font-montserrat font-bold bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">
           Im Athul Sabu
         </h1>
-        <p className="text-secondary-text  text-[14px] align pt-4 font-montserrat sm:text-lg">
+        <p className="text-secondary-text  text-[14px] align pt-4 font-montserrat sm:text-lg leading-6">
           A Developer passionate about software development and crafting
           impactful digital solutions. I specialize in building efficient,
           user-friendly applications and constantly strive to expand my skills
           and knowledge
         </p>
 
-        <div className="gap-4 flex">
+        <div className="gap-5 flex">
           <Link to="contact/">
             <Button label="Reach Me"></Button>
           </Link>

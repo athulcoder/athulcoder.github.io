@@ -35,7 +35,7 @@ const Showcase = () => {
         <h1 className="font-montserrat text-3xl lg:text-5xl font-bold bg-gradient-to-r from-yellow-300 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-3 py-3">
           My Projects
         </h1>
-        <p className="text-lg text-secondary-text">
+        <p className="text-lg text-secondary-text p-2">
           Discover a collection of my projects, where innovation,
           problem-solving, and passion drive every creation!
         </p>
