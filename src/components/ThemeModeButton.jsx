@@ -2,8 +2,11 @@ import { MdDarkMode } from "react-icons/md";
 import { MdLightMode } from "react-icons/md";
 import { useState, useEffect } from "react";
 import "../index.css";
-const ToggleButton = () => {
-  const [dark, setDark] = useState(false);
+import { useLocalStorage } from "react-use";
+const ThemeModeButton = () => {
+  // use localStorage to store the theme and will retrive if page is reloaded.
+  const [dark, setDark] = useLocalStorage("dark", false);
+
   useEffect(() => {
     if (dark) {
       document.getElementById("root").classList.add("light");
@@ -38,4 +41,4 @@ const ToggleButton = () => {
   );
 };
 
-export default ToggleButton;
+export default ThemeModeButton;
