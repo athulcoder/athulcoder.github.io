@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar.jsx";
 import PageNotFound from "./components/PageNotFound.jsx";
 import ShowCase from "./pages/ShowCase.jsx";
 import Footer from "./components/Footer.jsx";
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: (
