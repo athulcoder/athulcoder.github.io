@@ -25,21 +25,32 @@ const ThemeModeButton = () => {
       <motion.button
         className="bg-primary-color p-2 rounded-full"
         onClick={handleClick}
-        whileTap={{ scale: 1.1 }}
-        whileHover={{ scale: 1.1, rotate: 90, backgroundColor: "#fff" }}
-        transition={{ bounceStiffness: 600, bounceDamping: 10 }}
+        whileTap={{ scale: 1.3 }}
+        whileHover={{ scale: 1.3, rotate: -360 }}
+        transition={{
+          bounceStiffness: 600,
+          bounceDamping: 10,
+          ease: "easeInOut",
+        }}
       >
         <MdDarkMode className="w-[24px] h-[24px]  text-secondary-text"></MdDarkMode>
       </motion.button>
     </div>
   ) : (
     <div>
-      <button
+      <motion.button
         className="bg-primary-color p-2 rounded-full"
         onClick={handleClick}
+        whileTap={{ scale: 1.3 }}
+        whileHover={{ scale: 1.3, rotate: 180 }}
+        transition={{
+          bounceStiffness: 600,
+          bounceDamping: 10,
+          ease: "easeInOut",
+        }}
       >
         <MdLightMode className="w-[24px] h-[24px] text-secondary-text"></MdLightMode>
-      </button>
+      </motion.button>
     </div>
   );
 };
