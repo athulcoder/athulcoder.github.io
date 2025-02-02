@@ -1,4 +1,4 @@
-import { P1IMG, P2IMG, P3IMG } from "../assets/images/index";
+import { P1IMG, P2IMG, P3IMG, P4IMG } from "../assets/images/index";
 
 const projects = [
   {
