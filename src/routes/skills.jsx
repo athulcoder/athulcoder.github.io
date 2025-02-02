@@ -6,7 +6,7 @@ import { SiCplusplus, SiTailwindcss } from "react-icons/si";
 
 export const skills = [
   {
-    name: "React js",
+    name: "React JS",
     Icon: <FaReact></FaReact>,
   },
   {
