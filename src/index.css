@@ -19,12 +19,14 @@
 
 
 .dark{
+
     --primary-color: #1E293B;
     --background: #0F172A;
     --primary-text:#E5E7EB;
     --accent:#0d488c;
     --accent-hover:#165cc5;
-    --secondary-text:#9CA3AF;
+    --secondary-text:#9ea4ae;
+
 }
 
 .light{
