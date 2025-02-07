@@ -12,8 +12,8 @@
     --primary-color: #1E293B;
     --background: #0F172A;
     --primary-text:#E5E7EB;
-    --accent:#6237c5;
-    --accent-hover:#4b16c5;
+    --accent:#0d488c;
+    --accent-hover:#165cc5;
     --secondary-text:#838994;
 }
 
@@ -22,8 +22,8 @@
     --primary-color: #1E293B;
     --background: #0F172A;
     --primary-text:#E5E7EB;
-    --accent:#6237c5;
-    --accent-hover:#4b16c5;
+    --accent:#0d488c;
+    --accent-hover:#165cc5;
     --secondary-text:#9CA3AF;
 }
 
@@ -31,7 +31,7 @@
     --primary-color: #faf8fa;
     --background: #ffffff;
     --primary-text:#0e0e24;
-    --accent:#6237c5;
-    --accent-hover:#4b16c5;
+    --accent:#0d488c;
+    --accent-hover:#165cc5;
     --secondary-text:#474747;
 }
