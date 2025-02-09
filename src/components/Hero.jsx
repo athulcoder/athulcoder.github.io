@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col   w-full justify-center py-10 bg-background gap-12 min-h-screen lg:flex-row  lg:gap-8 lg:items-center lg:w-full lg:justify-center  px-5 ">
+    <section className="flex flex-col   w-full justify-center py-10 bg-background gap-12 min-h-screen lg:flex-row  lg:gap-8 lg:items-center lg:w-full lg:justify-center   px-5 ">
       <motion.div
         className=" flex flex-col justify-center items-start mx-5  h-[auto] lg:w-[450px] "
         initial={{ opacity: 0, y: 20 }}

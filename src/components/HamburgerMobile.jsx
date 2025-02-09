@@ -20,7 +20,7 @@ const HamburgerMobile = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ spring: 1, duration: 0.4 }}
-            className="fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-3 bg-primary-color border-b border-b-white/20 z-10 "
+            className="fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-3 bg-primary-color border-b border-b-white/20 z-10  b "
           >
             <ul className="grid gap-2">
               {routes.map((route) => {

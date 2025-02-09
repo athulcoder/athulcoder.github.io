@@ -11,7 +11,7 @@ const NavContactCard = ({ vision }) => {
           <ThemeModeButton></ThemeModeButton>
           <li className="flex justify-center  p-2 rounded-full ">
             <a href="https://github.com/athulcoder/" target="_blank">
-              <FaGithub className="text-secondary-text w-6 h-6" />
+              <FaGithub className="text-secondary-text w-6 h-6 hover:text-accent-hover" />
             </a>
           </li>
           <li className="flex justify-center p-2 rounded-full">
@@ -19,7 +19,7 @@ const NavContactCard = ({ vision }) => {
               href="https://www.linkedin.com/in/athul-sabu-84360a261/"
               target="_blank"
             >
-              <FaLinkedin className="text-secondary-text w-6 h-6" />
+              <FaLinkedin className="text-secondary-text w-6 h-6 hover:text-accent-hover" />
             </a>
           </li>
         </div>
