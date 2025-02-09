@@ -1,16 +1,24 @@
+import { motion } from "framer-motion";
 import { HeroIMG } from "../assets/images";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+
 const Hero = () => {
   return (
     <section className="flex flex-col   w-full justify-center py-10 bg-background gap-12 min-h-screen lg:flex-row  lg:gap-8 lg:items-center lg:w-full lg:justify-center  px-5 ">
-      <div className=" flex flex-col justify-center items-start mx-5  h-[auto] lg:w-[450px] ">
+      <motion.div
+        className=" flex flex-col justify-center items-start mx-5  h-[auto] lg:w-[450px] "
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      >
         <p className=" font-montserrat font-light text-4xl text-accent py-4 text-left sm:text-3xl  ">
           Hi
         </p>
         <h1 className="text-5xl font-montserrat font-bold bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">
           Im Athul Sabu
         </h1>
+
         <p className="text-secondary-text  text-[14px] align pt-4 font-montserrat sm:text-lg leading-6">
           A Developer passionate about software development and crafting
           impactful digital solutions. I specialize in building efficient,
@@ -27,10 +35,15 @@ const Hero = () => {
             <Button label="Portfolio"></Button>
           </Link>
         </div>
-      </div>
-      <div className="mx-5 min-w-[200px] self-center lg:w-[450px] ">
+      </motion.div>
+      <motion.div
+        className="mx-5 min-w-[200px] self-center lg:w-[450px] "
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.3 }}
+      >
         <img src={HeroIMG} alt=" hero image " className="w-full rounded-xl " />
-      </div>
+      </motion.div>
     </section>
   );
 };
