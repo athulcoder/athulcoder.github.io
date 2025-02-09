@@ -17,8 +17,9 @@ export const skills = [
     name: "JavaScript",
     Icon: <DiJavascript></DiJavascript>,
   },
+
   {
-    name: "C++",
+    name: "C/C++",
     Icon: <SiCplusplus />,
   },
   {
