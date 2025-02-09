@@ -10,7 +10,11 @@ export const skills = [
     Icon: <FaReact></FaReact>,
   },
   {
-    name: "Tailwind CSS",
+    name: "React Native",
+    Icon: <FaReact></FaReact>,
+  },
+  {
+    name: "TailwindCSS",
     Icon: <SiTailwindcss></SiTailwindcss>,
   },
   {
