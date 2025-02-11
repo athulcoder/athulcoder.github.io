@@ -1,7 +1,12 @@
 /* eslint-disable react/prop-types */
+import { motion } from "framer-motion";
 const ContactCard = ({ title, url, icon, key }) => {
   return (
-    <a
+    <motion.a
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ spring: 1, duration: 0.4 }}
       key={key}
       href={url}
       target="_blank"
@@ -10,7 +15,7 @@ const ContactCard = ({ title, url, icon, key }) => {
     >
       {icon}
       <span className="text-lg font-semibold">{title}</span>
-    </a>
+    </motion.a>
   );
 };
 
