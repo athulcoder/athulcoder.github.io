@@ -11,8 +11,7 @@ const projects = [
   },
   {
     title: "Attendance Management System",
-    description:
-      "An attendance management system made of python.Marks attendace by face recognition.",
+    description: "An attendance management system made of python.",
     image: P4IMG,
     githubLink: "https://github.com/athulcoder/attendance-management-system",
     previewLink: "",

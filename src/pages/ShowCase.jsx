@@ -14,7 +14,7 @@ const Showcase = () => {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 mx-12 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 lg:mx-32">
+      <div className="grid grid-cols-1 mx-12 sm:grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-10 lg:mx-32">
         {projects.map((project, index) => (
           <div
             key={index}
