@@ -12,18 +12,16 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className=" font-montserrat font-light text-4xl text-accent py-4 text-left sm:text-3xl  ">
-          Hi
-        </p>
+        <p className=" font-montserrat font-light text-4xl text-accent py-4 text-left sm:text-3xl  "></p>
         <h1 className="text-5xl font-montserrat font-bold bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">
-          Im Athul Sabu
+          Athul Sabu
         </h1>
 
         <p className="text-secondary-text  text-[14px] align pt-4 font-montserrat sm:text-lg leading-6">
-          A Developer passionate about software development and crafting
-          impactful digital solutions. I specialize in building efficient,
-          user-friendly applications and constantly strive to expand my skills
-          and knowledge
+          a visionary software developer, crafting innovative tech solutions.
+          expertise in <strong className="text-accent">React.js</strong> and
+          cross-platform app development using{" "}
+          <strong className="text-accent">React Native</strong>.
         </p>
 
         <div className="gap-5 flex">
