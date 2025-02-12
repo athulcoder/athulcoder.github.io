@@ -40,7 +40,11 @@ const Hero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.3 }}
       >
-        <img src={HeroIMG} alt=" hero image " className="w-full rounded-xl " />
+        <img
+          src={HeroIMG}
+          alt=" hero image "
+          className="w-full rounded-xl bg-blend-multiply "
+        />
       </motion.div>
     </section>
   );
