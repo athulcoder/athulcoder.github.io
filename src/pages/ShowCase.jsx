@@ -1,4 +1,3 @@
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import projects from "../routes/projects";
 import { motion } from "framer-motion";
 import ProjectCard from "../components/ProjectCard";
@@ -20,7 +19,7 @@ const Showcase = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        transition={{ spring: 1, duration: 0.4 }}
+        transition={{ spring: 1, duration: 0.3 }}
         className="grid grid-cols-1 mx-12 sm:grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-10 lg:mx-32"
       >
         {projects.map((project, index) => (
