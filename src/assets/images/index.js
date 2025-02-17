@@ -1,4 +1,4 @@
-import HeroIMG from "./hero.jpg";
+import HeroIMG from "./h3.jpg";
 import P1IMG from "./p1.webp";
 import P2IMG from "./p2.webp";
 import P3IMG from "./p3.webp";
