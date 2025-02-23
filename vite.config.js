@@ -7,6 +7,6 @@ export default defineConfig({
   base: "/",
 
   rollupOptions: {
-    external: ["react", "react-dom"], // Add the problematic module here
+    external: ["react", "react-dom", "react-router-dom"], // Add the problematic module here
   },
 });
