@@ -10,10 +10,10 @@ const About = () => {
         </h1>
         <div className="flex flex-col justify-center items-center p-4 my-5 bg-primary-color  rounded-lg shadow-lg transform transition-transform min-w-[200px] sm:w- ">
           <h1 className="text-3xl lg:text-4xl  font-montserrat text-primary-text ">
-            Hello, Im Athul Sabu
+            Athul Sabu
           </h1>
           <p className="text-secondary-text text-sm font-montserrat my-4 lg:text-md ">
-            a developer with passion to build innovative techologies with the
+            a developer with passion to build innovative techolosgies with the
             possible tools available.
           </p>
         </div>
