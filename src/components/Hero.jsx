@@ -12,11 +12,8 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <p className=" font-montserrat font-light text-4xl text-accent py-4 text-left sm:text-3xl  ">
-          Hi
-        </p>
         <h1 className="text-5xl font-montserrat font-bold bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-500 text-transparent bg-clip-text mb-4">
-          Im Athul Sabu
+          Athul Sabu
         </h1>
 
         <p className="text-secondary-text  text-[14px] align pt-4 font-montserrat sm:text-lg leading-6">
@@ -42,7 +39,11 @@ const Hero = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.3 }}
       >
-        <img src={HeroIMG} alt=" hero image " className="w-full rounded-xl " />
+        <img
+          src={HeroIMG}
+          alt=" hero image "
+          className="w-fit h-[400px] rounded-xl shadow-lg shadow-black"
+        />
       </motion.div>
     </section>
   );
