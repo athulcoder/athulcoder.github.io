@@ -1,14 +1,22 @@
-import { P1IMG, P2IMG, P3IMG, P4IMG } from "../assets/images/index";
+import { P1IMG, P2IMG, P3IMG, P4IMG, P5IMG } from "../assets/images/index";
 
 const projects = [
+  {
+    title: "Rock paper scissors",
+    description: "A simple rock paper scissor responsive game",
+    image: P5IMG,
+    githubLink: "https://github.com/athulcoder/rock-paper-scissors",
+    previewLink: "https://athulcoder.github.io/rock-paper-scissors/",
+  },
   {
     title: "Instagram Clone",
     description:
       "A clone of Instagram with features like user authentication and image posting.",
-    image: P1IMG, // Replace with your image
+    image: P1IMG,
     githubLink: "https://github.com/athulcoder/instagram_clone",
     previewLink: "",
   },
+
   {
     title: "Attendance Management System",
     description:
