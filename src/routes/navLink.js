@@ -2,32 +2,25 @@ import { CiPhone } from "react-icons/ci";
 import { CiHome } from "react-icons/ci";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
-export const routes =[
-{
-    title :"Home",
-    href :"/",
-    Icon: CiHome
-    
-}
-,
-{
-    title:"Portfolio",
-    href:"/works",
-    Icon:AiOutlineFundProjectionScreen
- 
-},
-{
-    title:"Contact",
-    href:"/contact",
-    Icon:CiPhone
-  
-
-},
-{
-    title:"About",
-    href:"/about",
-    Icon:CgProfile
-
-}
-
-]
+export const routes = [
+  {
+    title: "Home",
+    href: "/",
+    Icon: CiHome,
+  },
+  {
+    title: "Projects",
+    href: "/works",
+    Icon: AiOutlineFundProjectionScreen,
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+    Icon: CiPhone,
+  },
+  {
+    title: "About",
+    href: "/about",
+    Icon: CgProfile,
+  },
+];
