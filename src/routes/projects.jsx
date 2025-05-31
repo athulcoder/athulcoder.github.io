@@ -1,4 +1,11 @@
-import { P1IMG, P2IMG, P3IMG, P4IMG, P5IMG } from "../assets/images/index";
+import {
+  P1IMG,
+  P2IMG,
+  P3IMG,
+  P4IMG,
+  P5IMG,
+  P6IMG,
+} from "../assets/images/index";
 
 const projects = [
   {
@@ -15,6 +22,14 @@ const projects = [
     image: P1IMG,
     githubLink: "https://github.com/athulcoder/instagram_clone",
     previewLink: "",
+  },
+  {
+    title: "TODO WEB APP",
+    description:
+      "A simple ToDo web application built with HTML, CSS, and JavaScript that allows users to add events with dates and stores them locally using localStorage.",
+    image: P6IMG,
+    githubLink: "https://github.com/athulcoder/todo-app",
+    previewLink: "https://athulcoder.github.io/todo-app",
   },
 
   {
