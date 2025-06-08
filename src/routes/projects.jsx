@@ -5,9 +5,18 @@ import {
   P4IMG,
   P5IMG,
   P6IMG,
+  P7IMG,
 } from "../assets/images/index";
 
 const projects = [
+  {
+    title: "CineQuest",
+    description:
+      "A Movie Search platfrom build using TMDb API . You can find wide varieties movies based on filters ",
+    image: P7IMG,
+    githubLink: "https://github.com/athulcoder/cinequest",
+    previewLink: "https://athulcoder.github.io/cinequest",
+  },
   {
     title: "Rock paper scissors",
     description: "A simple rock paper scissor responsive game",
