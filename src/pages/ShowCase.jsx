@@ -23,7 +23,7 @@ const Showcase = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full rounded-lg  p-4 min-h-[300px] object-cover transition-all "
+              className="w-full rounded-lg  p-4 min-h-[300px] object-cover transition-all rounded-lg "
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold mb-3 text-primary-text">
