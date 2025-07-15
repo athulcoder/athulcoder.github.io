@@ -10,7 +10,7 @@ export default function Home() {
         <p className="text-gray-600 text-lg mb-6">
           This page is currently under maintenance.
         </p>
-        <p className="text-sm text-gray-500">— athulCoder</p>
+        <p className="text-sm text-gray-500">athulcoder</p>
       </div>
     </main>
   );
