@@ -75,7 +75,7 @@ export function NavigationBar() {
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
-                className="w-full"
+                className="w-full bg-white"
               >
                 Login
               </NavbarButton>
