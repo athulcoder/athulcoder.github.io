@@ -11,7 +11,8 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
-
+import { GrGithub } from "react-icons/gr";
+import { TbBrandLinkedin } from "react-icons/tb";
 export function NavigationBar() {
   const navItems = [
     {
@@ -42,8 +43,22 @@ export function NavigationBar() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="primary">Login</NavbarButton>
-            <NavbarButton variant="primary">Signup</NavbarButton>
+            <a
+              href="https://github.com/athulcoder"
+              className="cursor-pointer text-white text-primary underline hover:text-primary-foreground"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <GrGithub className="text-2xl text-white" />
+            </a>
+            <a
+              href="https://github.com/athulcoder"
+              className="cursor-pointer text-white text-primary underline hover:text-primary-foreground"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <TbBrandLinkedin className="text-2xl text-white" />
+            </a>
           </div>
         </NavBody>
 
@@ -77,14 +92,14 @@ export function NavigationBar() {
                 variant="primary"
                 className="w-full "
               >
-                Login
+                Github
               </NavbarButton>
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
                 className="w-full"
               >
-                Book a call
+                Linkeldn
               </NavbarButton>
             </div>
           </MobileNavMenu>

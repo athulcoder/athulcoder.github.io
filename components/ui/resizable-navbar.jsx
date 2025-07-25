@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-
+import { AiFillCodeSandboxCircle } from "react-icons/ai";
 import { CiMenuFries } from "react-icons/ci";
 import { IoCloseOutline } from "react-icons/io5";
 import {
@@ -11,6 +11,7 @@ import {
 } from "motion/react";
 
 import React, { useRef, useState } from "react";
+import { inter } from "@/lib/font";
 
 export const Navbar = ({ children, className }) => {
   const ref = useRef(null);
@@ -157,7 +158,7 @@ export const MobileNavMenu = ({ children, className, isOpen, onClose }) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           className={cn(
-            "absolute inset-x-0 top-18 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg bg-white px-4 py-8 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-neutral-950",
+            "absolute inset-x-0 top-18 z-50 flex w-full flex-col items-start justify-start gap-4 rounded-lg bg-zinc-950 px-4 py-8 shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] dark:bg-neutral-950",
             className
           )}
         >
@@ -170,9 +171,9 @@ export const MobileNavMenu = ({ children, className, isOpen, onClose }) => {
 
 export const MobileNavToggle = ({ isOpen, onClick }) => {
   return isOpen ? (
-    <IoCloseOutline className="text-white" onClick={onClick} />
+    <IoCloseOutline className="text-zinc-300 text-2xl" onClick={onClick} />
   ) : (
-    <CiMenuFries className="text-white" onClick={onClick} />
+    <CiMenuFries className="text-zinc-300 text-2xl" onClick={onClick} />
   );
 };
 
@@ -182,13 +183,10 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <img
-        src="https://assets.aceternity.com/logo-dark.png"
-        alt="logo"
-        width={30}
-        height={30}
-      />
-      <span className="font-medium text-black dark:text-white">Startup</span>
+      <AiFillCodeSandboxCircle className="text-white text-3xl" />
+      <span className={`font-medium text-white font-sans ${inter.className}`}>
+        athulcoder
+      </span>
     </a>
   );
 };
