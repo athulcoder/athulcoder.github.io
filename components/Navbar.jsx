@@ -42,8 +42,8 @@ export function NavigationBar() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <NavbarButton variant="primary">Login</NavbarButton>
+            <NavbarButton variant="primary">Signup</NavbarButton>
           </div>
         </NavBody>
 
@@ -66,7 +66,7 @@ export function NavigationBar() {
                 key={`mobile-link-${idx}`}
                 href={item.link}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="relative text-neutral-600 dark:text-neutral-300"
+                className="relative text-neutral-300 dark:text-neutral-200"
               >
                 <span className="block">{item.name}</span>
               </a>
@@ -75,7 +75,7 @@ export function NavigationBar() {
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"
-                className="w-full bg-white"
+                className="w-full "
               >
                 Login
               </NavbarButton>
