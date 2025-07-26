@@ -43,7 +43,7 @@ const sectionVariants = {
 
 function SkillsBlock({ title, skills }) {
   return (
-    <div className="w-full max-w-5xl mx-auto px-4 py-6 mb-5 rounded-2xl backdrop-blur-md bg-black/30 border border-zinc-700 shadow-lg">
+    <div className="w-full max-w-5xl mx-auto px-4 py-6 mb-5 rounded-2xl  bg-black/30 border border-zinc-700 shadow-lg">
       <h2 className={`text-left text-sm text-gray-400 mb-4 ${inter.className}`}>
         {title}
       </h2>
@@ -76,8 +76,6 @@ export default function Skills() {
           { icon: <FaReact />, color: "text-cyan-400" },
           { icon: <SiNextdotjs />, color: "text-white" },
           { icon: <SiTailwindcss />, color: "text-sky-400" },
-          { icon: <SiFirebase />, color: "text-indigo-400" },
-          { icon: <SiShadcnui />, color: "text-pink-400" },
         ]}
       />
 
@@ -88,14 +86,6 @@ export default function Skills() {
           { icon: <SiExpress />, color: "text-gray-300" },
           { icon: <SiMongodb />, color: "text-green-600" },
           { icon: <SiFirebase />, color: "text-yellow-400" },
-        ]}
-      />
-
-      <SkillsBlock
-        title="GUI"
-        skills={[
-          { icon: <FaJava />, color: "text-orange-400" },
-          { icon: <DiPython />, color: "text-green-400" },
         ]}
       />
 
