@@ -29,6 +29,7 @@ function BackgroundBeamsDemo() {
             <TextHoverEffect text="Athul Sabu" />
           </h1>
         </div>
+
         <Languages />
         <Skills />
         <GithubCalendar />

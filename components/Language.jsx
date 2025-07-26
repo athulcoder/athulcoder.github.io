@@ -30,13 +30,12 @@ const iconVariants = {
 
 export default function Languages() {
   return (
-    <div className="flex flex-col">
-      <h1 className={`text-sm text-gray-600 text-left p-2 ${inter.className}`}>
-        {" "}
+    <div className=" max-w-5xl mx-auto px-4 py-6 mb-5 rounded-2xl  bg-black/30 border border-zinc-700 shadow-lg">
+      <h2 className={`text-left text-sm text-gray-400 mb-4 ${inter.className}`}>
         Langauges
-      </h1>
+      </h2>
 
-      <div className="w-full max-w-4xl mx-auto px-4 py-6 mb-5 rounded-2xl backdrop-blur-md bg-black/30 border border-zinc-700 shadow-lg flex justify-center space-x-8">
+      <div className="flex justify-center flex-wrap gap-8">
         {icons.map((lang, i) => (
           <motion.div
             key={i}
