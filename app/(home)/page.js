@@ -6,6 +6,7 @@ import Image from "next/image";
 import { inter, plusJakarta } from "@/lib/font";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import GithubCalendar from "@/components/GithubCalender";
+import Languages from "@/components/Language";
 
 function BackgroundBeamsDemo() {
   return (
@@ -27,6 +28,7 @@ function BackgroundBeamsDemo() {
             <TextHoverEffect text="Athul Sabu" />
           </h1>
         </div>
+        <Languages />
         <GithubCalendar />
       </div>
     </div>
