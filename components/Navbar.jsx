@@ -42,7 +42,7 @@ export function NavigationBar() {
         <NavBody>
           <NavbarLogo />
           <NavItems items={navItems} />
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 z-10">
             <a
               href="https://github.com/athulcoder"
               className="cursor-pointer text-white  underline hover:text-primary-foreground"
@@ -52,7 +52,7 @@ export function NavigationBar() {
               <GrGithub className="text-2xl text-white" />
             </a>
             <a
-              href="https://github.com/athulcoder"
+              href="https://www.linkedin.com/in/athul-sabu-84360a261/"
               className="cursor-pointer text-white  underline hover:text-primary-foreground"
               rel="noopener noreferrer"
               target="_blank"
