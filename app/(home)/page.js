@@ -5,6 +5,7 @@ import { NavigationBar } from "@/components/Navbar";
 import Image from "next/image";
 import { inter, plusJakarta } from "@/lib/font";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
+import GithubCalendar from "@/components/GithubCalender";
 
 function BackgroundBeamsDemo() {
   return (
@@ -20,10 +21,13 @@ function BackgroundBeamsDemo() {
           />
         </div>
         <div className="flex-col justify-center items-center">
-          <h1 className={`text-3xl font-bold text-zinc-200 ${inter.className}`}>
-            <TextHoverEffect text="Athul Sabu" duration={1} />
+          <h1
+            className={`text-3xl font-bold text-zinc-200 z-50 ${inter.className}`}
+          >
+            <TextHoverEffect text="Athul Sabu" />
           </h1>
         </div>
+        <GithubCalendar />
       </div>
     </div>
   );
