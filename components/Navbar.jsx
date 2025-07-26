@@ -45,7 +45,7 @@ export function NavigationBar() {
           <div className="flex items-center gap-4">
             <a
               href="https://github.com/athulcoder"
-              className="cursor-pointer text-white text-primary underline hover:text-primary-foreground"
+              className="cursor-pointer text-white  underline hover:text-primary-foreground"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -53,7 +53,7 @@ export function NavigationBar() {
             </a>
             <a
               href="https://github.com/athulcoder"
-              className="cursor-pointer text-white text-primary underline hover:text-primary-foreground"
+              className="cursor-pointer text-white  underline hover:text-primary-foreground"
               rel="noopener noreferrer"
               target="_blank"
             >
