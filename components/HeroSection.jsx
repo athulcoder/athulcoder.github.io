@@ -1,13 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function HeroContent() {
   return (
     <div className="relative z-10 w-full max-w-4xl mx-auto text-center px-4">
-      {/* Animated Title */}
+      {/* Title */}
       <motion.h1
         className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 animate-gradient bg-[length:300%_300%]"
         initial={{ opacity: 0, y: 20 }}
@@ -24,53 +23,47 @@ export default function HeroContent() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 1 }}
       >
-        Started coding in 8th grade, now building beautiful products & powerful
-        solutions as a BTech CSE student at MITS Kochi.
+        Full Stack Developer focused on building fast, scalable, and
+        user-friendly web applications—bridging design and backend logic to
+        deliver complete digital experiences.
       </motion.p>
 
-      {/* Action Buttons */}
+      {/* Buttons */}
       <motion.div
         className="mt-6 flex flex-wrap justify-center gap-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 1 }}
       >
-        <Button asChild variant="secondary" className="gap-2">
-          <a
-            href="mailto:your@email.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Mail className="w-4 h-4" />
-            Contact Me
-          </a>
-        </Button>
-
-        <Button
-          asChild
-          variant="outline"
-          className="gap-2 border-white/30 hover:border-white"
+        <a
+          href="mailto:athulofficialmail@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 hover:brightness-110 transition-all text-sm md:text-base"
         >
-          <a
-            href="https://github.com/athulcoder"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Github className="w-4 h-4" />
-            GitHub
-          </a>
-        </Button>
+          <FaEnvelope className="text-lg" />
+          Contact Me
+        </a>
 
-        <Button asChild variant="ghost" className="gap-2 hover:bg-white/10">
-          <a
-            href="https://linkedin.com/in/athul-sabu-84360a261/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Linkedin className="w-4 h-4" />
-            LinkedIn
-          </a>
-        </Button>
+        <a
+          href="https://github.com/athulcoder"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-gray-700 via-gray-900 to-black hover:brightness-110 transition-all text-sm md:text-base"
+        >
+          <FaGithub className="text-lg" />
+          GitHub
+        </a>
+
+        <a
+          href="https://linkedin.com/in/athul-sabu-84360a261/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-sky-500 to-blue-600 hover:brightness-110 transition-all text-sm md:text-base"
+        >
+          <FaLinkedin className="text-lg" />
+          LinkedIn
+        </a>
       </motion.div>
     </div>
   );
