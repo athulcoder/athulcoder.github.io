@@ -13,14 +13,14 @@ import HeroContent from "@/components/HeroSection";
 function BackgroundBeamsDemo() {
   return (
     <div className="h-fit w-full  bg-neutral-950 relative flex flex-col  antialiased ">
-      <div className="flex flex-col my-10 mx-5   justify-center items-center">
+      <div className="flex flex-col my-14 mx-5   justify-center items-center">
         <div className="flex justify-center items-center p-1 bg-cyan-600 h-fit w-fit rounded-full ">
           <Image
             src="./athul_sabu.jpg"
             width={300}
             height={300}
             alt="athul sabu"
-            className="rounded-full w-[120px] h-[120px]"
+            className="rounded-full w-[140px] h-[140px]"
           />
         </div>
         <div className="flex-col justify-center items-center">

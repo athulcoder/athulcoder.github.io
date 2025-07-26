@@ -1,7 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
+import Button, { GradientButton } from "./Button";
+import { TbFolderSearch } from "react-icons/tb";
 
 export default function HeroContent() {
   return (
@@ -30,40 +32,26 @@ export default function HeroContent() {
 
       {/* Buttons */}
       <motion.div
-        className="mt-6 flex flex-wrap justify-center gap-4"
+        className="mt-6 flex flex-wrap justify-center gap-4 my-5"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 1 }}
       >
-        <a
-          href="mailto:athulofficialmail@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 hover:brightness-110 transition-all text-sm md:text-base"
-        >
-          <FaEnvelope className="text-lg" />
-          Contact Me
-        </a>
+        <Button
+          label={"Projects"}
+          icon={TbFolderSearch}
+          onClick={() => console.log("hello")}
+          className=""
+          innerBg="bg-black/30"
+        />
 
-        <a
-          href="https://github.com/athulcoder"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-gray-700 via-gray-900 to-black hover:brightness-110 transition-all text-sm md:text-base"
-        >
-          <FaGithub className="text-lg" />
-          GitHub
-        </a>
-
-        <a
-          href="https://linkedin.com/in/athul-sabu-84360a261/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-6 py-2 rounded-xl text-white bg-gradient-to-r from-sky-500 to-blue-600 hover:brightness-110 transition-all text-sm md:text-base"
-        >
-          <FaLinkedin className="text-lg" />
-          LinkedIn
-        </a>
+        <Button
+          label="Github"
+          icon={FaGithub}
+          onClick={() =>
+            (window.location.href = "https://github.com/athulcoder")
+          }
+        />
       </motion.div>
     </div>
   );
