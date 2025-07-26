@@ -11,7 +11,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <NavigationBar />
-        {children} <BackgroundBeams />
+
+        {children}
+        <BackgroundBeams />
       </body>
     </html>
   );
