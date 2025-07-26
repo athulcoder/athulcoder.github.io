@@ -8,6 +8,7 @@ import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import GithubCalendar from "@/components/GithubCalender";
 import Languages from "@/components/Language";
 import Skills from "@/components/Skill";
+import HeroContent from "@/components/HeroSection";
 
 function BackgroundBeamsDemo() {
   return (
@@ -29,7 +30,7 @@ function BackgroundBeamsDemo() {
             <TextHoverEffect text="Athul Sabu" />
           </h1>
         </div>
-
+        <HeroContent />
         <Languages />
         <Skills />
         <GithubCalendar />
