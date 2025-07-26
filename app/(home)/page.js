@@ -7,10 +7,11 @@ import { inter, plusJakarta } from "@/lib/font";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import GithubCalendar from "@/components/GithubCalender";
 import Languages from "@/components/Language";
+import Skills from "@/components/Skill";
 
 function BackgroundBeamsDemo() {
   return (
-    <div className="h-[100vh] w-full  bg-neutral-950 relative flex flex-col  antialiased">
+    <div className="h-fit w-full  bg-neutral-950 relative flex flex-col  antialiased">
       <div className="flex flex-col my-5 mx-5  justify-center items-center">
         <div className="flex justify-center items-center p-1 bg-purple-600 h-fit w-fit rounded-full ">
           <Image
@@ -29,6 +30,7 @@ function BackgroundBeamsDemo() {
           </h1>
         </div>
         <Languages />
+        <Skills />
         <GithubCalendar />
       </div>
     </div>
