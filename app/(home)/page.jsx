@@ -25,7 +25,7 @@ function BackgroundBeamsDemo() {
         </div>
         <div className="flex-col justify-center items-center">
           <h1
-            className={`text-3xl font-bold text-zinc-200 z-50 ${inter.className}`}
+            className={`text-3xl font-bold text-zinc-300 z-50 ${inter.className}`}
           >
             <TextHoverEffect text="Athul Sabu" />
           </h1>
