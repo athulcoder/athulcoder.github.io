@@ -8,7 +8,7 @@ import { inter } from "@/lib/font";
 
 export default function AboutPage() {
   const story = `
-In 8th standard, I started coding on an Android phone using Pydroid, learning basic Python. With that knowledge, I built a complete calculator using Tkinter—all on the phone itself.
+From 8th standard, I started coding on an Android phone using Pydroid, learning basic Python. With that knowledge, I built a complete calculator using Tkinter—all on the phone itself.
 
 Then COVID-19 hit. At 14, I explored HTML and CSS and created my personal blog, hosted on GitHub Pages. I even built ecommerce-like sites. To breathe life into them, I picked up JavaScript and mastered DOM manipulation, which let me craft stunning websites.
 
