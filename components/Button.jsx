@@ -4,7 +4,7 @@ export default function Button({
   label,
   icon: Icon,
   onClick,
-  innerBg = "bg-black/90",
+  innerBg = "bg-black/80",
   className = "",
 }) {
   return (
