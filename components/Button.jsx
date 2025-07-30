@@ -17,7 +17,7 @@ export default function Button({
 
       {/* Inner background with blur */}
       <span
-        className={`relative z-10 flex items-center gap-2 justify-center h-full w-full px-4 py-2 rounded-[10px] ${innerBg} backdrop-blur-md text-white font-medium`}
+        className={`relative z-11 flex items-center gap-2 justify-center h-full w-full px-4 py-2 rounded-[10px] ${innerBg} backdrop-blur-md text-white font-medium`}
       >
         {Icon && <Icon className="w-4 h-4" />}
         {label}
