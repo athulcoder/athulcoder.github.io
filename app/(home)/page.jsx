@@ -9,6 +9,7 @@ import GithubCalendar from "@/components/GithubCalender";
 import Languages from "@/components/Language";
 import Skills from "@/components/Skill";
 import HeroContent from "@/components/HeroSection";
+import LangCircle from "@/components/LangCricle";
 
 function BackgroundBeamsDemo() {
   return (
@@ -31,6 +32,7 @@ function BackgroundBeamsDemo() {
           </h1>
         </div>
         <HeroContent />
+        <LangCircle />
         <Languages />
         <Skills />
         <GithubCalendar />

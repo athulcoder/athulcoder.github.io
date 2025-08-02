@@ -13,7 +13,7 @@ export default function GithubCalendar() {
   }, []);
 
   return (
-    <div className="w-full p-4 sm:p-6 rounded-2xl bg-zinc-900 shadow-md">
+    <div className="w-full min-lg:w-[700px] p-4 sm:p-6 rounded-2xl bg-zinc-900 shadow-md">
       <h2 className="text-lg font-semibold mb-4 text-white">
         GitHub Contributions
       </h2>
