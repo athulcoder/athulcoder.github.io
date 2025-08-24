@@ -41,7 +41,7 @@ export default function HeroContent() {
           label={"Projects"}
           icon={TbFolderSearch}
           onClick={() => console.log("hello")}
-          className=""
+          className="cursor-pointer"
           innerBg="bg-black/30"
         />
 
@@ -51,6 +51,7 @@ export default function HeroContent() {
           onClick={() =>
             (window.location.href = "https://github.com/athulcoder")
           }
+          className="cursor-pointer"
         />
       </motion.div>
     </div>

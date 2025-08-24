@@ -15,27 +15,31 @@ function BackgroundBeamsDemo() {
   return (
     <div className="h-fit w-full  bg-neutral-950 relative flex flex-col  antialiased ">
       <div className="flex flex-col my-14 mx-5   justify-center items-center">
-        <div className="flex justify-center items-center p-1 bg-cyan-600 h-fit w-fit rounded-full ">
-          <Image
-            src="./athul_sabu.jpg"
-            width={300}
-            height={300}
-            alt="athul sabu"
-            className="rounded-full w-[140px] h-[140px]"
-          />
+        <div className="flex flex-col justify-center items-center">
+          <div className="flex justify-center items-center p-1 bg-cyan-600 h-fit w-fit rounded-full ">
+            <Image
+              src="./athul_sabu.jpg"
+              width={300}
+              height={300}
+              alt="athul sabu"
+              className="rounded-full w-[140px] h-[140px] "
+            />
+          </div>
+          <div className="flex-col justify-center items-center">
+            <h1
+              className={`text-3xl font-bold text-zinc-300 z-50 ${inter.className}`}
+            >
+              <TextHoverEffect text="Athul Sabu" />
+            </h1>
+          </div>
+          <HeroContent />
         </div>
-        <div className="flex-col justify-center items-center">
-          <h1
-            className={`text-3xl font-bold text-zinc-300 z-50 ${inter.className}`}
-          >
-            <TextHoverEffect text="Athul Sabu" />
-          </h1>
+
+        <div className="flex flex-col w-full">
+          {/* <Languages /> */}
+          <Skills />
+          <GithubCalendar />
         </div>
-        <HeroContent />
-        <LangCircle />
-        <Languages />
-        <Skills />
-        <GithubCalendar />
       </div>
     </div>
   );
