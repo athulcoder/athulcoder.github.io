@@ -12,6 +12,7 @@ import {
 
 import React, { useRef, useState } from "react";
 import { inter } from "@/lib/font";
+import Image from "next/image";
 
 export const Navbar = ({ children, className }) => {
   const ref = useRef(null);
@@ -183,7 +184,15 @@ export const NavbarLogo = () => {
       href="#"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <AiFillCodeSandboxCircle className="text-white text-3xl" />
+      <div className="flex justify-center items-center bg-white rounded-full p-[2px]">
+        <Image
+          src="./athul_sabu.jpg"
+          width={20}
+          height={20}
+          alt="athul sabu"
+          className="rounded-full w-[35px] h-[35px] "
+        />
+      </div>
       <span className={`font-medium text-white font-sans ${inter.className}`}>
         athulcoder
       </span>

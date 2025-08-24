@@ -14,8 +14,8 @@ import LangCircle from "@/components/LangCricle";
 function BackgroundBeamsDemo() {
   return (
     <div className="h-fit w-full  bg-neutral-950 relative flex flex-col  antialiased ">
-      <div className="flex flex-col my-14 mx-5   justify-center items-center">
-        <div className="flex flex-col justify-center items-center">
+      <div className="flex max-lg:flex-col my-14 mx-5   justify-center items-center ">
+        <div className="flex flex-col justify-center max-lg:w-full items-center w-[40%]">
           <div className="flex justify-center items-center p-1 bg-cyan-600 h-fit w-fit rounded-full ">
             <Image
               src="./athul_sabu.jpg"
@@ -35,7 +35,7 @@ function BackgroundBeamsDemo() {
           <HeroContent />
         </div>
 
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col max-lg:w-full w-[55%]">
           {/* <Languages /> */}
           <Skills />
           <GithubCalendar />

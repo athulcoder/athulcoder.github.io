@@ -10,7 +10,7 @@ export default function HeroContent() {
     <div className="relative z-10 w-full max-w-4xl mx-auto text-center px-4">
       {/* Title */}
       <motion.h1
-        className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 animate-gradient bg-[length:300%_300%]"
+        className="text-4xl md:text-5xl min-lg:text-left font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 animate-gradient bg-[length:300%_300%]"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -20,7 +20,7 @@ export default function HeroContent() {
 
       {/* Subtitle */}
       <motion.p
-        className="mt-4 text-lg md:text-xl text-zinc-300 leading-relaxed"
+        className="mt-4 text-lg md:text-xl text-zinc-300 leading-relaxed min-lg:text-left"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 1 }}
