@@ -31,6 +31,7 @@ export default function HeroContent() {
       </motion.p>
 
       {/* Buttons */}
+
       <motion.div
         className="mt-6 flex flex-wrap justify-center gap-4 my-5"
         initial={{ opacity: 0, y: 20 }}
